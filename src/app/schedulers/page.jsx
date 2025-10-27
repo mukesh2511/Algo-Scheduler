@@ -1,4 +1,5 @@
-import Card from "@/components/Card";
+// import Card from "@/components/Card";
+import Card from "../../../src/Components/Card.jsx";
 
 export default function Home() {
   const cards = [
