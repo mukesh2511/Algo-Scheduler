@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Card = ({ card }) => {
   return (
-    <div className="group relative overflow-hidden rounded-2xl border border-[#e5e7eb] bg-white/70 backdrop-blur shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+    <div className="group relative overflow-hidden rounded-2xl border border-[#e5e7eb] bg-white/70 backdrop-blur shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col ">
       {/* Image Section */}
       <div className="aspect-[16/10] w-full overflow-hidden bg-gradient-to-br from-blue-50 to-indigo-50">
         <Image
@@ -17,7 +17,7 @@ const Card = ({ card }) => {
       </div>
 
       {/* Content Section */}
-      <div className="p-4 md:p-5">
+      <div className="p-4 md:p-5 flex flex-col justify-between">
         {/* Title with icon */}
         <div className="flex items-center gap-2.5 mb-2.5">
           <svg
