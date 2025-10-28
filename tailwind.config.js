@@ -30,6 +30,140 @@ module.exports = {
     "font-semibold",
     "text-white",
     "text-black",
+    // Arbitrary background colors
+    "bg-[#111827]",
+    "hover:bg-[#1f2937]",
+    "bg-[#eef2ff]",
+    "bg-[#ecfeff]",
+    "bg-white/70",
+
+    // Arbitrary text colors
+    "text-[#111827]",
+    "text-[#4b5563]",
+    "text-[#3730a3]",
+    "text-[#0369a1]",
+    "text-[#6b7280]",
+    "text-white",
+
+    // Arbitrary border color
+    "border-[#e5e7eb]",
+
+    // Common utilities used (just in case purge removes due to conditional logic)
+    "rounded-lg",
+    "rounded-2xl",
+    "shadow-sm",
+    "hover:shadow-xl",
+    "transition-all",
+    "transition-colors",
+    "duration-300",
+    "flex",
+    "flex-col",
+    "flex-wrap",
+    "items-center",
+    "justify-between",
+    "gap-1",
+    "gap-1.5",
+    "gap-2",
+    "gap-2.5",
+    "gap-3",
+    "overflow-hidden",
+    "p-4",
+    "md:p-5",
+    "text-xs",
+    "text-sm",
+    "text-lg",
+    "md:text-sm",
+    "md:text-xl",
+    //navbar
+    "flex",
+    "items-center",
+    "justify-between",
+    "gap-4",
+    "gap-8",
+    "w-1/3",
+    "h-full",
+    "h-8",
+    "h-1",
+    "w-10",
+    "z-50",
+    "relative",
+    "absolute",
+    "top-0",
+    "left-0",
+    "w-screen",
+    "h-screen",
+
+    // Padding and margins
+    "p-1",
+    "px-4",
+    "sm:px-8",
+    "md:px-12",
+    "lg:px-20",
+    "xl:px-48",
+    "mr-1",
+
+    // Typography
+    "text-lg",
+    "text-sm",
+    "text-4xl",
+    "font-semibold",
+    "text-white",
+    "text-black",
+
+    // Backgrounds
+    "bg-black",
+    "bg-white",
+
+    // Borders and rounding
+    "rounded",
+    "rounded-md",
+    "rounded-sm",
+
+    // Visibility and responsive
+    "hidden",
+    "flex",
+    "md:flex",
+    "lg:flex",
+    "xl:justify-center",
+    "md:hidden",
+
+    // Positioning
+    "origin-left",
+
+    // Animation/transition
+    "transition-all",
+    "duration-300",
+
+    // Custom responsive breakpoints
+    "sm:px-8",
+    "md:px-12",
+    "lg:px-20",
+    "xl:px-48",
+
+    // Framer Motion + Menu related
+    "hamburger",
+    "left",
+    "right",
+    "logo",
+    "bg-black",
+    "text-white",
+    "flex-col",
+    "justify-center",
+    "items-center",
+    "z-40",
+    "z-50",
+    "relative",
+
+    // Utility for object-fit (if used in images)
+    "object-contain",
+    "object-cover",
+
+    // Conditional classes used dynamically in NavLink (for active links)
+    "font-semibold",
+    "text-[#283953]",
+    "gap-2",
+    "p-1",
+    "rounded",
   ],
   theme: {
     extend: {
