@@ -14,7 +14,7 @@ export default function Home() {
     },
     {
       name: "SJF Scheduler",
-      image: "/sjf.png",
+      image: "/SJF.png",
       description:
         "Shortest Job First (SJF) selects the process with the smallest burst time next. It minimizes average waiting time but requires prior knowledge of execution time.",
       meta: [
