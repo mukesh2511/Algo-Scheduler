@@ -164,6 +164,16 @@ module.exports = {
     "gap-2",
     "p-1",
     "rounded",
+
+    ///card
+    "px-2",
+    "py-0.5 ",
+    "text-[11px] ",
+    "font-medium",
+    "inline-flex",
+    "items-center",
+    "gap-1",
+    "rounded-full",
   ],
   theme: {
     extend: {
